@@ -7,6 +7,11 @@
   "category": "widgets",
   "icon": "format-audio",
   "description": "Random stuff from that song u know. ljn was here. Example block scaffolded with Create Block tool.",
+  "attributes": {
+    "textAlign": {
+      "type": "string"
+    }
+  },
   "example": {},
   "supports": {
     "align": true,
