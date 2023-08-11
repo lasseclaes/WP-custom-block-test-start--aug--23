@@ -5,11 +5,36 @@
 	"version": "0.1.0",
 	"title": "Hello Dolly Block",
 	"category": "widgets",
-	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"icon": "format-audio",
+	"description": "Random stuff from that song u know. ljn was here. Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
-		"html": false
+		"align": true,
+		"color": {
+			"background": true,
+			"text": true
+		},
+		"__experimentalBorder": {
+			"radius": true,
+			"width": true,
+			"style": true,
+			"color": true
+		},
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontStyle": true,
+			"__experimentalFontWeight": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalLetterSpacing": true
+		}
 	},
 	"textdomain": "hello-dolly-block",
 	"editorScript": "file:./index.js",
